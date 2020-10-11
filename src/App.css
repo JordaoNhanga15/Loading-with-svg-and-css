@@ -1,0 +1,32 @@
+.App{
+  background: #282c28;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg{
+  width: 200px;
+  height: 200px;
+}
+svg .load-text{
+  font-size: 9px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: blink 1.5s ease-in-out infinite;
+  /* font-style: italic; */
+}
+svg .polygon{
+  stroke-dasharray: 17;
+  animation: dash 3s infinite cubic-bezier(0.39, 0.04, 0.63, 0.95) ;
+}
+
+@keyframes dash{
+  to{
+    stroke-dashoffset: 136;
+  }
+}
+@keyframes blink{
+  50%{
+    opacity: 0;
+  }
+}
