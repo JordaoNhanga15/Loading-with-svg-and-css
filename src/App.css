@@ -17,7 +17,7 @@ svg .load-text{
 }
 svg .polygon{
   stroke-dasharray: 17;
-  animation: dash 2.9s infinite cubic-bezier(0.39, 0.04, 0.63, 0.95) ;
+  animation: dash 3s infinite cubic-bezier(0.39, 0.04, 0.63, 0.95) ;
 } 
 
 @keyframes dash{
